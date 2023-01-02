@@ -2,19 +2,23 @@
 TCC Data Analytics - Module 9
 
 BACKGROUND
+
 It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
 For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
 
 INSTRUCTIONS
+
 This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
 
->>> DATA MODELING >>>
+- DATA MODELING 
+
 Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables.
 
-![image](https://user-images.githubusercontent.com/344601/210274139-d1f24049-1b1e-4477-b352-15ad982e32f7.png)
+<img width="1436" alt="image" src="https://user-images.githubusercontent.com/344601/210283417-be8759c8-7c86-4721-8362-9b53157152a0.png">
 
->>> DATA ENGINEERING <<<
+- DATA ENGINEERING
+
 Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
 
 Remember to specify the data types, primary keys, foreign keys, and other constraints.
@@ -25,7 +29,8 @@ Be sure to create the tables in the correct order to handle the foreign keys.
 
 Import each CSV file into its corresponding SQL table.
 
->>> DATA ANALYSIS <<<
+- DATA ANALYSIS 
+
 1. List the employee number, last name, first name, sex, and salary of each employee.
 ![image](https://user-images.githubusercontent.com/344601/210281639-6466dbea-0b35-45af-ab98-d07216c478ce.png)
 
